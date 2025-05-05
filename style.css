@@ -1,0 +1,48 @@
+body {
+    background: khaki;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#global{
+    width: 1100px;
+    margin: 0px auto;
+}
+#primero{
+    background:aquamarine;
+    margin: 0px;
+    text-align: center;
+    
+}
+nav{
+    background: aliceblue;
+    height: 50px;
+
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.clearfix{
+    clear:both;
+}
+article header{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+#Preguntas{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+}
+#formulario{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head><!--El head es donde se representan los metadatos que colocamos al principio del código-->
+        <meta charset="utf-8"><!--codificacion-->
+        <meta name="viewport" content="width=device-width"><!--Con esto hace que si lo abres en movil como en pc, se vea de la misma manera-->
+        <title>CV de Ayrton</title><!--Con esto damos el nombre que saldra en la pestaña de busqueda-->
+
+        <meta name="description" content="Curriculum de Ayrton"><!--Es la descripcion de la pagina-->
+
+        <meta name="Curriculum" content="Curriculum, portfolio">
+        <meta name="theme-color"content="#09f">
+
+        <link rel="icon" type="image/pgn" href="images/icon.png">
+        
+
+    </head>
+    <body><!--El body es donde colocamos toda la información restante-->
+        <div id="global">
+            <header id="primero">
+                <hr><!--Lo coloco para poner una linea visible que separa el encabezado de la página-->
+                <h1>Ayrton Hellman Acuña</h1><!--Hn sirve para separ en diferentes tipos de titulo-->
+                <hr>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#Idiomas">Idiomas</a><!--Enlaces internos-->
+                    </li>
+                    <li>
+                        <a href="#Experiencia">Experiencia profesional</a>
+                    </li>
+                    <li>
+                        <a href="#Educación">Educación</a>
+                    </li>
+                    <li>
+                        <a href="#Información">Información adicional</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div><!--Pongo un div para separar los textos a la hora de estilarlo-->
+            <main>
+                <section><!--Coloco la sección para separar temáticas, en caso que hable de otra cosa aparte del CV que no es el caso-->
+                    <article><!--El article lo uso para separar los artículos que estan presente en el CV, aunque esten relacionados-->
+                        <header><!--El header para separar la cabeza del artículo-->
+                        <h2>Información personal</h2>
+                        </header>
+                        <footer><!--El footer es el cuerpo-->
+                            <a download href="images/cigala.jpg"><!--Descargar la imagen que yo he colocado-->
+                                <img 
+                                id="photo-image"
+                                title="Foto de ayrton"
+                                alt="Fotografia de ayrton en la que sale muy elegante"
+                                src="images/cigala.jpg"
+                                width="200"
+                                height="150"
+                                ><!--Los datos necesarios para colocar una imagen-->
+                            </a>
+                            <p>ayrton.h.acuna@gmail.com</p><!--P=Párrafo-->
+                            <p>654551706</p>
+                            <p>C/ Nueva 16, San juan de Requena - 46390</p>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                        <h2 id="Idiomas">Idiomas</h2>
+                        </header>
+                        <footer>
+                            <ol><!--Lo uso para colocar un listado de una serie de cosas de forma ordenada con números-->
+                            <li value="2">Español nativo</li><!--Es el contenido de las listas y ademas con el "value" fuerzo a que el numero de ese item sea un numero en concreto-->
+                            <li >Inglés A2</li>
+                            </ol>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 id="Experiencia">Experiencia profesional</h2>
+                        </header>
+                        <footer>
+                            <ul><!--Otra forma de colocar un listado pero colocando puntos-->
+                            <li class="list-item"><strong>Repartidor de comida</strong></li>
+                            Telepizza (25/2024 - Actualidad)
+                            <li class="list-item"><p></p><strong>Monitor de ocio</strong></li>
+                            Hoces ventura (05/2024 - 06/2024)
+                            <li class="list-item"><p></p><strong>Pinche de cocina</strong></li>
+                            Restaurante alejo, stand de venta de comida en la feria del embutido durante 4 años en Requena
+                            <li class="list-item"><p></p><strong>Peón electricista</strong></li>
+                            Instalaciones eléctricas MIRSA (08/2024 - 12/2024)
+                            <li class="list-item"><p></p><strong>Peón de obra</strong></li>
+                            Rex Taura (06/2022 - 06/2022)
+                            <li class="list-item"><p></p><strong>Repartidor de comida</strong></li>
+                            Burger Kinkg (01/2022 - 03/2022)
+                            </ul>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 id="Educación">Educación</h2>
+                        </header>
+                        <footer>
+                            <ul>
+                            <li class="list-item"><strong>Técnico superior en Gestión Administrativa</strong> <small>2023</small></li>
+                            CIPFP Vicente Blasco Ibáñez
+                            <li class="list-item"><p></p><strong>Técnico en Gestón Administrativa</strong> <small>2021</small></li>
+                            IES 1 de Requena
+                            <li class="list-item"><p></p><strong>Graduado Escolar ESO</strong> <small>2019</small></li>
+                            IES 1 de Requena
+                            </ul>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <h2 id="Información">Información adicional</h2>
+                        </header>
+                        <footer>
+                            <ol type="A" reversed><!--Mediante el "type" se puede cambiar el tipo de numeracion y con el "reversed" he invertido el orden-->
+                            <li class="list-item">Carnet de conducir B1 y vehículo propio</li>
+                            <li class="list-item">Flexibilidad horaria</li>
+                            </ol>   
+                        </footer>
+                    </article> 
+                </section>
+                <section>
+                    <h2 id="Preguntas">Preguntas frecuentes</h2>
+                    <details><!--Sirve para "ocultar" información adicional que la persona, con un simple click, puede leer. Aunque se puede poner que la información salga a la vista directemente colocando un "open" en el summary-->
+                        <summary>¿Que turnos prefieres de trabajo?</summary>
+                        <p>Prefiero los turnos de mañana, ya que me siento con más ánimo de trabajar y te poder aprender nuevas técnicas</p>
+                    </details>
+                </section>
+                <section>
+                    <h2 id="formulario">Formulario de contacto</h2>
+                    <form method="post" action="/"><!--Creación de un formulario con un metodo en específico pero hay más-->
+                        <fieldset>
+                            <legend>Información personal</legend><!--Es el encabezado de cada apartado del formulacion-->
+                            <div><!--Utilizo el div para separlos en bloques-->
+                                <label>Nombre:
+                                    <input 
+                                    type="text"
+                                    name="name"
+                                    placeholder="Ayrton Acuña" required><!--"requiered" obliga a poner la información, para que no se deje nada en blanco a la hora de completar el formulario de contacto-->
+                                </label>
+                            </div>
+                            <div>
+                                <label>Email:
+                                    <input 
+                                    type="email"
+                                    name="Email"
+                                    placeholder="ayrton.h.acuna@gmail.com" required>
+                                </label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Información adicional</legend>
+                                <label>Teléfono:
+                                    <input 
+                                    type="tel"
+                                    name="telefono"
+                                    placeholder="654551890" required>
+                                </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Otros</legend>
+                            <div>
+                                <label for="why">¿Por qué quieres contactar conmigo?:</label>
+                                <select name="why" id="why"><!--Coloco esta serie de codigos para que la persona que vaya a rellenar el apartado,le salga una serie de cosas ya establecias para seleccionar-->
+                                    <option value="1">Trabajo</option><!--Aqui coloco el valor de cada opcion que voy a colocar-->
+                                    <option value="2">Duda</option>
+                                    <option value="3">Más información</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="terms">¿Aceptas los términos?:</label>
+                                <input type="checkbox" id="terms" name="terms" required>
+                            </div>
+                        </fieldset>
+                        <input type="submit" value="Enviar contacto"><!--"input type" hay varias formas de utilización para el trabajo, ya sea en forma de boton, checkbox, etc...-->
+                    </form>
+                </section>
+            </main>
+            <div>
+                <a download href="CV-Ayrton Acuña.pdf">
+                    <button>Descarga aqui mi CV</button>
+                </a>
+            </div>
+            <video controls src="images/faliyo cantando el rey del carmelo en HD.mp4"></video><!--Colocación de un video-->
+            <footer>
+                Copyright © 2025 - El portfolio de Ayrton
+                <a href="mailto:ayrton.h.acuna@gmail.com">Enviame un correo</a>
+            </footer>
+        </div>
+    </body>
+</html>
